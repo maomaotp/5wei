@@ -1,0 +1,61 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+["add"] 	login.lua	/^		["add"] = function() return add_new_user() end,$/;"	f
+["draw"] 	login.lua	/^		["draw"] = function() return draw() end, $/;"	f
+["list"] 	login.lua	/^		["list"] = function() return get_all_list() end, $/;"	f
+["login"] 	login.lua	/^		["login"] = function() return login_user() end, $/;"	f
+["set"] 	login.lua	/^		["set"] = function() return set_arg() end, $/;"	f
+add_new_user	login.lua	/^function add_new_user()$/;"	f
+admin_set_2	weixin_login.lua	/^function admin_set_2(open_id, content)$/;"	f
+admin_set_3	weixin_login.lua	/^function admin_set_3(open_id, content)$/;"	f
+admin_set_member_count	weixin_login.lua	/^function admin_set_member_count(open_id, content)$/;"	f
+admin_set_prise	weixin_login.lua	/^function admin_set_prise(open_id, content, level)$/;"	f
+admin_set_prise_module	weixin_login.lua	/^function admin_set_prise_module(open_id, content)$/;"	f
+close_redis	draw_list.lua	/^function close_redis()$/;"	f
+close_redis	login.lua	/^function close_redis()$/;"	f
+close_redis	weixin_login.lua	/^function close_redis()$/;"	f
+del_user_info	weixin_login.lua	/^function del_user_info(open_id)$/;"	f
+draw	login.lua	/^function draw()$/;"	f
+event_dispose	weixin_login.lua	/^function event_dispose(post_body, open_id)$/;"	f
+get_access_tooken	weixin_login.lua	/^function get_access_tooken()$/;"	f
+get_all_list	login.lua	/^function get_all_list()$/;"	f
+get_award	login.lua	/^function get_award(level)$/;"	f
+get_draw	weixin_login.lua	/^function get_draw(open_id)$/;"	f
+get_draw_list	draw_list.lua	/^function get_draw_list()$/;"	f
+get_draw_message	weixin_login.lua	/^function get_draw_message(open_id, content)$/;"	f
+get_draw_set_info	weixin_login.lua	/^function get_draw_set_info()$/;"	f
+get_level	login.lua	/^function get_level(draw_number)$/;"	f
+get_login_user	weixin_login.lua	/^function get_login_user()$/;"	f
+get_prize	weixin_login.lua	/^function get_prize(open_id)$/;"	f
+get_prize_name	weixin_login.lua	/^function get_prize_name(level)$/;"	f
+get_role	weixin_login.lua	/^function get_role(open_id)$/;"	f
+get_step	weixin_login.lua	/^function get_step(open_id)$/;"	f
+get_user_message	weixin_login.lua	/^function get_user_message(open_id)$/;"	f
+get_user_phone	weixin_login.lua	/^function get_user_phone(open_id)$/;"	f
+init_redis	draw_list.lua	/^function init_redis()$/;"	f
+init_redis	login.lua	/^function init_redis()$/;"	f
+init_redis	weixin_login.lua	/^function init_redis()$/;"	f
+is_exist_open_id	weixin_login.lua	/^function is_exist_open_id(open_id)$/;"	f
+login_user	login.lua	/^function login_user()$/;"	f
+login_user	weixin_login.lua	/^function login_user(open_id, phone)$/;"	f
+lua_string_split	weixin_login.lua	/^function lua_string_split(str, split_char)$/;"	f
+main	draw_list.lua	/^function main()$/;"	f
+main	login.lua	/^function main()$/;"	f
+main	weixin_login.lua	/^function main()$/;"	f
+parse_postargs	login.lua	/^function parse_postargs()$/;"	f
+reset_prize_info	weixin_login.lua	/^function reset_prize_info(open_id)$/;"	f
+response_message	weixin_login.lua	/^function response_message(open_id, res_content)$/;"	f
+set_arg	login.lua	/^function set_arg()$/;"	f
+set_arg	weixin_login.lua	/^function set_arg()$/;"	f
+set_members_count	weixin_login.lua	/^function set_members_count(member_count)$/;"	f
+set_prize	weixin_login.lua	/^function set_prize(level, prize_name, prize_level)$/;"	f
+set_user_step	weixin_login.lua	/^function set_user_step(open_id, step)$/;"	f
+split	draw_list.lua	/^function split(szFullString, szSeparator)$/;"	f
+text_dispose	weixin_login.lua	/^function text_dispose(post_body, open_id)$/;"	f
+update_user_phone	weixin_login.lua	/^function update_user_phone(open_id, phone, role)$/;"	f
+verify_member_count	weixin_login.lua	/^function verify_member_count(order)$/;"	f
+verify_phone	weixin_login.lua	/^function verify_phone(open_id, content)$/;"	f

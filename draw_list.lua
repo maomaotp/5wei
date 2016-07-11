@@ -50,7 +50,7 @@ function get_draw_list()
 		-- local arr = split(list[i], "_")
 		local name = red:hget(list[i], 'name')
 		local level = red:hget(list[i], 'level')
-		local res_str = string.format('phone: %s, level:%s,name: %s', list[i], level, name)
+		local res_str = string.format('phone: %s, number:%s,name: %s', list[i], level, name)
 		ngx.say(res_str)
 	end
 end
