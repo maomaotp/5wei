@@ -96,8 +96,6 @@ end
 
 function get_access_tooken()
     local httpc = http.new()
-    local app_id = "wx2b6413b6e4c7c14d"
-    local app_secret = "8491ea8c79f5489e915b48d80dcf7816"
 
     local url = string.format("https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=%s&secret=%s", app_id, app_secret)
     local res, err = httpc:request_uri(url, {
